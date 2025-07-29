@@ -2,7 +2,7 @@ name: 🧩 Generate GitHub Profile Visuals
 
 on:
   schedule:
-    - cron: '0 0 * * 1'  # щопонеділка о 00:00
+    - cron: '0 0 * * 1'
   workflow_dispatch:
   push:
     branches:
@@ -34,21 +34,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       ######################
-      # 🧊 3D contribution graph (shell method)
+      # 📊 Summary Cards
       ######################
-      - name: 🧊 Generate 3D contributions
-        run: |
-          git clone https://github.com/gayanvoice/github-profile-3d-contrib.git
-          cd github-profile-3d-contrib
-          npm install
-          npm run generate -- --username ${{ github.repository_owner }}
-          mkdir -p ../dist/profile-3d-contrib
-          cp -r ./out/* ../dist/profile-3d-contrib/
-
-      ######################
-      # 🗃️ Summary Cards
-      ######################
-      - name: 🗃️ Generate profile summary cards
+      - name: 📊 Generate profile summary cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         with:
           USERNAME: ${{ github.repository_owner }}
@@ -56,7 +44,7 @@ jobs:
           MARKDOWN: true
 
       ######################
-      # 📤 Push everything to output branch
+      # 📤 Push generated visuals
       ######################
       - name: 📤 Push generated visuals
         uses: crazy-max/ghaction-github-pages@v3.1.0

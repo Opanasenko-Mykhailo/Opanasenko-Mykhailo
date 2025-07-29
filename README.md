@@ -1,7 +1,7 @@
 # 🧩 GitHub Activity Visuals
 
 This repository automatically generates and updates GitHub activity visuals using GitHub Actions.  
-It includes an animated contribution snake, 3D graph, profile summary cards, and a metrics dashboard.
+It includes an animated contribution snake, profile summary cards, and a metrics dashboard.
 
 ---
 
@@ -10,14 +10,6 @@ It includes an animated contribution snake, 3D graph, profile summary cards, and
 > GitHub contributions as a slithering snake 🐍
 
 ![GitHub Snake Animation](https://github.com/Opanasenko-Mykhailo/github-activity-visuals/raw/output/github-snake.svg)
-
----
-
-### 🧊 3D Contribution Graph
-
-> Animated 3D representation of my contribution history 📊
-
-![3D Contribution Graph](https://github.com/Opanasenko-Mykhailo/github-activity-visuals/blob/output/profile-3d-contrib/profile-green-animate.svg)
 
 ---
 
@@ -40,7 +32,6 @@ It includes an animated contribution snake, 3D graph, profile summary cards, and
 ### 🛠 Tech Stack
 
 - [Platane/snk](https://github.com/Platane/snk)
-- [gayanvoice/github-profile-3d-contrib](https://github.com/gayanvoice/github-profile-3d-contrib)
 - [vn7n24fzkq/github-profile-summary-cards](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 - [lowlighter/metrics](https://github.com/lowlighter/metrics)
 
