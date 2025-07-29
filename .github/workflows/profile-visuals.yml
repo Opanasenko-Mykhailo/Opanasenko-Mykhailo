@@ -46,15 +46,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      ######################
-      # 🧹 Commit summary cards changes
-      ######################
-      - name: 🧹 Commit generated summary cards
+      - name: 🧹 Move summary cards to dist
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add dist/
-          git commit -m "Generate profile summary cards" || echo "No changes to commit"
+          mkdir -p dist
+          cp -r profile-summary-card-output/* dist/
 
       ######################
       # 📈 GitHub Metrics Dashboard
@@ -72,7 +67,7 @@ jobs:
       ######################
       # 📤 Push generated visuals
       ######################
-      - name: 📤 Push generated visuals
+      - name: 📤 Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
