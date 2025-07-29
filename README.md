@@ -1,8 +1,4 @@
 # 🧩 GitHub Activity Visuals
-
-This repository automatically generates and updates GitHub activity visuals using GitHub Actions.  
-It includes an animated contribution snake, profile summary cards, and a metrics dashboard.
-
 ---
 
 ### 🐍 Snake Animation
