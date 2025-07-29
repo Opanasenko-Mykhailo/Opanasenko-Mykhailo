@@ -9,7 +9,7 @@ It includes an animated contribution snake, profile summary cards, and a metrics
 
 > GitHub contributions as a slithering snake 🐍
 
-![GitHub Snake Animation](https://github.com/Opanasenko-Mykhailo/github-activity-visuals/raw/output/github-snake.svg)
+![GitHub Snake Animation](https://raw.githubusercontent.com/Opanasenko-Mykhailo/github-activity-visuals/output/github-snake.svg)
 
 ---
 
@@ -17,7 +17,7 @@ It includes an animated contribution snake, profile summary cards, and a metrics
 
 > GitHub summary cards with stats and breakdowns
 
-![](https://raw.githubusercontent.com/Opanasenko-Mykhailo/github-activity-visuals/output/github_dark/0-profile-details.svg)
+![GitHub Summary Cards](https://raw.githubusercontent.com/Opanasenko-Mykhailo/github-activity-visuals/output/github_dark/0-profile-details.svg)
 
 ---
 
@@ -25,6 +25,4 @@ It includes an animated contribution snake, profile summary cards, and a metrics
 
 > Rich GitHub insights: activity, repos, traffic, and more
 
-![](https://github.com/Opanasenko-Mykhailo/github-activity-visuals/raw/output/metrics.svg)
-
----
+![GitHub Metrics](https://raw.githubusercontent.com/Opanasenko-Mykhailo/github-activity-visuals/output/metrics.svg)
