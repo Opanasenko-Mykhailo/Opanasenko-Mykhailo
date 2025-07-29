@@ -1,8 +1,8 @@
-name: Generate Custom Snake
+name: 🧩 Generate GitHub Profile Visuals
 
 on:
   schedule:
-    - cron: "0 */24 * * *"
+    - cron: '0 0 * * 1'  # щопонеділка о 00:00
   workflow_dispatch:
   push:
     branches:
@@ -12,13 +12,16 @@ permissions:
   contents: write
 
 jobs:
-  build:
+  generate-assets:
     runs-on: ubuntu-latest
     steps:
-      - name: Clone repo
+      - name: 📥 Clone repo
         uses: actions/checkout@v4
 
-      - name: Generate the snake files
+      ######################
+      # 🐍 Snake animation
+      ######################
+      - name: 🐍 Generate snake animation
         uses: Platane/snk@v3
         id: snake-gif
         with:
@@ -30,11 +33,32 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Push new files to the output branch
+      ######################
+      # 🧊 3D contribution graph
+      ######################
+      - name: 🧊 Generate 3D contributions
+        uses: gayanvoice/github-profile-3d-contrib@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      ######################
+      # 🗃️ Summary Cards
+      ######################
+      - name: 🗃️ Generate profile summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          UTC_OFFSET: 3
+          MARKDOWN: true
+
+      ######################
+      # 📤 Push to output branch
+      ######################
+      - name: 📤 Push generated visuals
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
-          commit_message: "Snake Animation Update"
+          commit_message: "🔁 Update profile visuals"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
