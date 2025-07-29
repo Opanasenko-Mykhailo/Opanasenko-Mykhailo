@@ -48,8 +48,9 @@ jobs:
 
       - name: 🧹 Move summary cards to dist
         run: |
-          mkdir -p dist
-          cp -r profile-summary-card-output/* dist/
+          mkdir -p dist/github_dark
+          cp profile-summary-card-output/**/github_dark/*.svg dist/github_dark/
+
 
       ######################
       # 📈 GitHub Metrics Dashboard
