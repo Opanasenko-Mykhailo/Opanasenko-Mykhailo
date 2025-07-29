@@ -28,13 +28,3 @@ It includes an animated contribution snake, profile summary cards, and a metrics
 ![](https://github.com/Opanasenko-Mykhailo/github-activity-visuals/raw/output/metrics.svg)
 
 ---
-
-### 🛠 Tech Stack
-
-- [Platane/snk](https://github.com/Platane/snk)
-- [vn7n24fzkq/github-profile-summary-cards](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-- [lowlighter/metrics](https://github.com/lowlighter/metrics)
-
----
-
-> ⏱ All visuals auto-update weekly via [GitHub Actions](.github/workflows/profile-visuals.yml)

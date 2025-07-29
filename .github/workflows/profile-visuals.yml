@@ -57,6 +57,19 @@ jobs:
           git commit -m "Generate profile summary cards" || echo "No changes to commit"
 
       ######################
+      # 📈 GitHub Metrics Dashboard
+      ######################
+      - name: 📈 Generate metrics.svg
+        uses: lowlighter/metrics@latest
+        with:
+          filename: dist/metrics.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: header, activity, community, repositories
+          plugin_lines: yes
+          plugin_traffic: yes
+          config_timezone: Europe/Kyiv
+
+      ######################
       # 📤 Push generated visuals
       ######################
       - name: 📤 Push generated visuals
