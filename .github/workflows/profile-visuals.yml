@@ -2,7 +2,7 @@ name: 🧩 Generate GitHub Profile Visuals
 
 on:
   schedule:
-    - cron: '0 0 * * 1'
+    - cron: '0 0 * * *'
   workflow_dispatch:
   push:
     branches:
@@ -18,9 +18,6 @@ jobs:
       - name: 📥 Clone repo
         uses: actions/checkout@v4
 
-      ######################
-      # 🐍 Snake animation
-      ######################
       - name: 🐍 Generate snake animation
         uses: Platane/snk@v3
         id: snake-gif
@@ -33,9 +30,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      ######################
-      # 📊 Summary Cards
-      ######################
       - name: 📊 Generate profile summary cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         with:
@@ -51,9 +45,6 @@ jobs:
           mkdir -p dist
           cp -r profile-summary-card-output/* dist/
 
-      ######################
-      # 📈 GitHub Metrics Dashboard
-      ######################
       - name: 📈 Generate metrics.svg
         uses: lowlighter/metrics@latest
         with:
@@ -64,9 +55,6 @@ jobs:
           plugin_traffic: yes
           config_timezone: Europe/Kyiv
 
-      ######################
-      # 📤 Push generated visuals
-      ######################
       - name: 📤 Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
