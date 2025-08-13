@@ -22,3 +22,21 @@
 > Rich GitHub insights: activity, repos, traffic, and more
 
 ![GitHub Metrics](https://raw.githubusercontent.com/Opanasenko-Mykhailo/github-activity-visuals/output/metrics.svg)
+
+---
+
+### 🏆 GitHub Trophies
+
+> Achievement trophies showcasing GitHub milestones
+
+![GitHub Trophies](https://raw.githubusercontent.com/Opanasenko-Mykhailo/github-activity-visuals/output/trophies.svg)
+
+---
+
+### ⚡ Streak Stats
+
+> Contribution streak statistics and consistency tracking
+
+![GitHub Streak Stats](https://raw.githubusercontent.com/Opanasenko-Mykhailo/github-activity-visuals/output/streak-stats.svg)
+
+---

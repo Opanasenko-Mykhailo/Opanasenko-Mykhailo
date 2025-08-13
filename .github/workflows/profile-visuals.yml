@@ -53,13 +53,29 @@ jobs:
           base: header, activity, community, repositories
           plugin_lines: yes
           plugin_traffic: yes
+          plugin_followup: yes
+          plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_notable: yes
+          plugin_achievements: yes
           config_timezone: Europe/Kyiv
+
+      - name: 🏆 Generate trophy stats
+        run: |
+          curl -X GET "https://github-profile-trophy.vercel.app/?username=${{ github.repository_owner }}&theme=darkhub&no-frame=false&no-bg=true&margin-w=4&row=2" -o dist/trophies.svg
+
+      - name: ⚡ Generate GitHub streak stats
+        run: |
+          curl -X GET "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&theme=dark&hide_border=true" -o dist/streak-stats.svg
 
       - name: 📤 Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
-          commit_message: "🔁 Update profile visuals"
+          commit_message: "🔁 Update profile visuals [$(date +'%Y-%m-%d %H:%M:%S')]"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
