@@ -40,3 +40,19 @@
 ![GitHub Streak Stats](https://raw.githubusercontent.com/Opanasenko-Mykhailo/github-activity-visuals/output/streak-stats.svg)
 
 ---
+
+### 🌟 Most Used Languages
+
+> Programming languages based on repository analysis
+
+![Top Languages](https://raw.githubusercontent.com/Opanasenko-Mykhailo/github-activity-visuals/output/top-languages.svg)
+
+---
+
+### 📊 GitHub Statistics
+
+> Detailed GitHub stats with commits, PRs, and contributions
+
+![GitHub Stats](https://raw.githubusercontent.com/Opanasenko-Mykhailo/github-activity-visuals/output/github-stats.svg)
+
+---

@@ -71,6 +71,14 @@ jobs:
         run: |
           curl -X GET "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&theme=dark&hide_border=true" -o dist/streak-stats.svg
 
+      - name: 🌟 Generate top languages card
+        run: |
+          curl -X GET "https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&theme=dark&hide_border=true&langs_count=8" -o dist/top-languages.svg
+
+      - name: 📊 Generate detailed GitHub stats
+        run: |
+          curl -X GET "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true" -o dist/github-stats.svg
+
       - name: 📤 Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
