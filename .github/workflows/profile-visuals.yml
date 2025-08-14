@@ -45,22 +45,14 @@ jobs:
           mkdir -p dist
           cp -r profile-summary-card-output/* dist/
 
-      - name: 📈 Generate metrics.svg
+      - name: 📈 Generate metrics.svg (minimal)
         uses: lowlighter/metrics@latest
         with:
           filename: dist/metrics.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-          base: header, activity, community, repositories
-          plugin_lines: yes
-          plugin_traffic: yes
-          plugin_followup: yes
+          base: header, activity, repositories
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          plugin_notable: yes
-          plugin_achievements: yes
           config_timezone: Europe/Kyiv
 
       - name: 🏆 Generate trophy stats
