@@ -9,6 +9,14 @@
 
 ---
 
+### 🌟 Most Used Languages
+
+> Programming languages based on repository analysis
+
+![Top Languages](https://raw.githubusercontent.com/Opanasenko-Mykhailo/github-activity-visuals/output/top-languages.svg)
+
+---
+
 ### 📊 Summary Cards
 
 > GitHub summary cards with stats and breakdowns
@@ -38,14 +46,6 @@
 > Contribution streak statistics and consistency tracking
 
 ![GitHub Streak Stats](https://raw.githubusercontent.com/Opanasenko-Mykhailo/github-activity-visuals/output/streak-stats.svg)
-
----
-
-### 🌟 Most Used Languages
-
-> Programming languages based on repository analysis
-
-![Top Languages](https://raw.githubusercontent.com/Opanasenko-Mykhailo/github-activity-visuals/output/top-languages.svg)
 
 ---
 
