@@ -8,18 +8,18 @@
 
 ---
 
+### 📈 GitHub Metrics Dashboard
+> Rich GitHub insights: activity, repos, traffic, and more
+
+![GitHub Metrics](https://raw.githubusercontent.com/Opanasenko-Mykhailo/github-activity-visuals/output/metrics.svg)
+
+---
+
 ### 📊 Quick Stats
 
 | 🌟 Most Used Languages | 📊 Summary Cards |
 |------------------------|------------------|
 | ![Top Languages](https://raw.githubusercontent.com/Opanasenko-Mykhailo/github-activity-visuals/output/top-languages.svg) | ![GitHub Summary Cards](https://raw.githubusercontent.com/Opanasenko-Mykhailo/github-activity-visuals/output/github_dark/0-profile-details.svg) |
-
----
-
-### 📈 GitHub Metrics Dashboard
-> Rich GitHub insights: activity, repos, traffic, and more
-
-![GitHub Metrics](https://raw.githubusercontent.com/Opanasenko-Mykhailo/github-activity-visuals/output/metrics.svg)
 
 ---
 
