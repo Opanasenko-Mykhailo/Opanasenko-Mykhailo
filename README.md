@@ -23,15 +23,15 @@
 
 ---
 
-### 🏆 GitHub Trophies
-> Achievement trophies showcasing GitHub milestones
-
-![GitHub Trophies](https://raw.githubusercontent.com/Opanasenko-Mykhailo/github-activity-visuals/output/trophies.svg)
-
----
-
 ### ⚡ Consistency & Contributions
 
 | ⚡ Streak Stats | 📊 GitHub Statistics |
 |-----------------|----------------------|
 | ![GitHub Streak Stats](https://raw.githubusercontent.com/Opanasenko-Mykhailo/github-activity-visuals/output/streak-stats.svg) | ![GitHub Stats](https://raw.githubusercontent.com/Opanasenko-Mykhailo/github-activity-visuals/output/github-stats.svg) |
+
+---
+
+### 🏆 GitHub Trophies
+> Achievement trophies showcasing GitHub milestones
+
+![GitHub Trophies](https://raw.githubusercontent.com/Opanasenko-Mykhailo/github-activity-visuals/output/trophies.svg)
