@@ -2,8 +2,6 @@
 ---
 
 ### 🐍 Snake Animation
-> GitHub contributions as a slithering snake 🐍
-
 ![GitHub Snake Animation](https://raw.githubusercontent.com/Opanasenko-Mykhailo/github-activity-visuals/output/github-snake.svg)
 ---
 
