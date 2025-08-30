@@ -3,6 +3,7 @@
 
 ### 🐍 Snake Animation
 ![GitHub Snake Animation](https://raw.githubusercontent.com/Opanasenko-Mykhailo/github-activity-visuals/output/github-snake.svg)
+
 ---
 
 ### 📊 Quick Stats
