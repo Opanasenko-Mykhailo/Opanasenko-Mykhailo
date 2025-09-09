@@ -45,6 +45,7 @@
 ![Spring WebSocket](https://img.shields.io/badge/spring%20websocket-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 ![Spring Mail](https://img.shields.io/badge/spring%20mail-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 ![Spring Boot Admin](https://img.shields.io/badge/spring%20boot%20admin-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![Spring Cloud](https://img.shields.io/badge/spring%20cloud-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![MapStruct](https://img.shields.io/badge/mapstruct-%23FF6600.svg?style=for-the-badge&logo=java&logoColor=white)
 ![Lombok](https://img.shields.io/badge/Lombok-BC4521?style=for-the-badge&logo=lombok&logoColor=white)
 ![Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white)
