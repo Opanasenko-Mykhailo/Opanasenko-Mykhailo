@@ -63,6 +63,7 @@
 ![Mockito](https://img.shields.io/badge/mockito-%23FF6600.svg?style=for-the-badge&logo=java&logoColor=white)
 ![JaCoCo](https://img.shields.io/badge/JaCoCo-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![SonarQube](https://img.shields.io/badge/SonarQube-black?style=for-the-badge&logo=sonarqube&logoColor=4E9BCD)
+![Microservices](https://img.shields.io/badge/microservices-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white)
