@@ -59,6 +59,7 @@
 ![H2 Database](https://img.shields.io/badge/H2-018bff?style=for-the-badge&logo=h2&logoColor=white)
 ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%2347A248.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![NoSQL](https://img.shields.io/badge/NoSQL-%23000000.svg?style=for-the-badge&logo=nosql&logoColor=white)
 ![Liquibase](https://img.shields.io/badge/liquibase-%232962FF.svg?style=for-the-badge&logo=liquibase&logoColor=white)
 ![JUnit5](https://img.shields.io/badge/junit5-%2325A162.svg?style=for-the-badge&logo=junit5&logoColor=white)
 ![Mockito](https://img.shields.io/badge/mockito-%23FF6600.svg?style=for-the-badge&logo=java&logoColor=white)
