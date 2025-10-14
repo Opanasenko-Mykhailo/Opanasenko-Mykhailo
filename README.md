@@ -63,6 +63,7 @@
 ![Liquibase](https://img.shields.io/badge/liquibase-%232962FF.svg?style=for-the-badge&logo=liquibase&logoColor=white)
 ![JUnit5](https://img.shields.io/badge/junit5-%2325A162.svg?style=for-the-badge&logo=junit5&logoColor=white)
 ![Mockito](https://img.shields.io/badge/mockito-%23FF6600.svg?style=for-the-badge&logo=java&logoColor=white)
+![Cucumber](https://img.shields.io/badge/cucumber-%2323D96C.svg?style=for-the-badge&logo=cucumber&logoColor=white)
 ![JaCoCo](https://img.shields.io/badge/JaCoCo-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![SonarQube](https://img.shields.io/badge/SonarQube-black?style=for-the-badge&logo=sonarqube&logoColor=4E9BCD)
 ![Microservices](https://img.shields.io/badge/microservices-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
