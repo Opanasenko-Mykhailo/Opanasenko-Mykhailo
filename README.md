@@ -41,6 +41,7 @@
 ![Spring Boot](https://img.shields.io/badge/spring%20boot-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/spring%20security-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 ![Spring Data JPA](https://img.shields.io/badge/spring%20data%20jpa-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![Spring Data REST](https://img.shields.io/badge/spring%20data%20rest-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 ![Spring AOP](https://img.shields.io/badge/spring%20aop-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 ![Spring WebSocket](https://img.shields.io/badge/spring%20websocket-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 ![Spring Mail](https://img.shields.io/badge/spring%20mail-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
